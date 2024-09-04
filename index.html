@@ -18,25 +18,35 @@ A head element above the body element.-->
     </title>
   </head>
   <body>
-    <main>
-      <h1>CatPhotoApp</h1>
+    <main> <!-- HTML5 has some elements that identify different content areas. These elements make your HTML easier to read and help with Search Engine Optimization (SEO) and accessibility.
+    The <main> element is used to represent the main content of the body of an HTML document. Content inside the main element should be unique to the document and should not be repeated in other parts of the document.-->
+      <h1>CatPhotoApp</h1> <!--The h1 element is a heading element and is used for the main heading of a webpage.-->
       <section>
         <h2>Cat Photos</h2>
         <!-- TODO: Add link to cat photos -->
-        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+	<p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p> <!-- The <p> element is used to create a paragraph of text on websites. -->
+	<a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a> <!-- HTML attributes are special words used inside the opening tag of an element to control the element's behavior. The src attribute in an img element specifies the image's URL (where the image is located).
+	HTML attributes are special words used inside the opening tag of an element to control the element's behavior. The src attribute in an img element specifies the image's URL (where the image is located).
+	link to another page with the anchor (a) element. 
+	To open links in a new tab, you can use the target attribute on the anchor (a) element.
+	The target attribute specifies where to open the linked document. target="_blank" opens the linked document in a new tab or window.-->
       </section>
       <section>
+	      <!-- Before adding any new content, you should make use of a section element to separate the cat photos content from the future content.
+
+		      The section element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document. It is a semantic element that helps with SEO and accessibility. -->
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
-        <ul>
+	<ul> <!-- To create an unordered list of items, you can use the ul element.
+	The li element is used to create a list in an ordered or unorderes list.
+	-->
           <li>cat nip</li>
           <li>laser pointers</li>
           <li>lasagna</li>
-        </ul>
+        </ul> 
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+	  <figcaption>Cats <em>love</em> lasagna.</figcaption> <!-- A figure caption (figcaption) element is used to add a caption to describe the image contained within the figure element.-->  
         </figure>
         <h3>Top 3 things cats hate:</h3>
         <ol>
