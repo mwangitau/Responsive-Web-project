@@ -1,4 +1,9 @@
-<html>
+<!DOCTYPE html> <!-- All pages should begin with <!DOCTYPE html>.
+This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
+<!DOCTYPE html> tells browsers that the document is an HTML5 document which is the latest version of HTML.-->
+<!-- The html element is the root element of an HTML page and wraps all content on the page.
+Language is specified by adding the lang attribute to the html element -->
+<html lang="en">
 <!--Everything added to the page is usually inside the body element.
 All page content elements that should be rendered to the page go inside the body element.
 However, other important information goes inside the head element.
@@ -6,6 +11,11 @@ The head element is used to contain metadata about the document, such as its tit
 Metadata is information about the page that isn't displayed directly on the page.
 A head element above the body element.-->
   <head>
+    <!-- The title element determines what browsers show in the title bar or tab for the page. -->
+    <meta charset="utf-8"> <!--This tells the browser how to encode characters for the page. -->
+    <title>
+	    CatPhotoApp
+    </title>
   </head>
   <body>
     <main>
